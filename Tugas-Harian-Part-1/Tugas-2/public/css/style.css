@@ -12,7 +12,7 @@ footer {
     text-align: center;
 }
 section{
-    margin: 0 10% 0 10%;
+    margin: 10% 10% 0 10%;
     background-color: white;
 }
 
@@ -25,14 +25,20 @@ section h1{
     padding: 0 3% 5% 3%;
 }
 
-ul{
+header{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
-    left: 0;
-    top: 0;
+
 }
 
 li img{
