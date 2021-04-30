@@ -43,13 +43,13 @@ console.log(perkenalan) // Menampilkan "Nama saya John, umur saya 30 tahun, alam
 console.log("\n-----SOAL 3-----")
 var arrayDaftarPeserta = ["John Doe", "laki-laki", "baca buku" , 1992]
 
-var daftarPesertaObject = {
-    nama    : "John Doe",
-    jenisKelamin  : "laki-laki",
-    hobi   : "baca buku",
-    tahunLahir : 1992
+arrayDaftarPeserta = {
+    nama    : arrayDaftarPeserta[0],
+    jenisKelamin  : arrayDaftarPeserta[1],
+    hobi   : arrayDaftarPeserta[2],
+    tahunLahir : arrayDaftarPeserta[3]
 }
-console.log(daftarPesertaObject)
+console.log(arrayDaftarPeserta)
 
 //SOAL 4
 console.log("\n-----SOAL 4-----")
