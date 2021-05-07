@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Tugas9 from './Tugas-9/Tugas9'
+import Buah from './Tugas-10/Buah'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Tugas9/>
+    <Buah/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -78,6 +78,7 @@ console.log(kodok.cold_blooded)
 //SOAl 2
 console.log("\n----SOAL 2----")
 class Clock{
+    
     constructor({template }){
         this.template = template;
     }
