@@ -60,4 +60,4 @@ let buku = {
 buku.warnaSampul = buku.warnaSampul.concat(warna)
 
 let newBuku = {...buku, ...dataBukuTambahan}
- console.log(newBuku)
+console.log(newBuku)
