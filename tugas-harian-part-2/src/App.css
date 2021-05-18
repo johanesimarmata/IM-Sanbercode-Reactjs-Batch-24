@@ -10,6 +10,16 @@
   margin: 0% 5% 5% 5% 
 }
 
+table.harga-buah {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.harga-buah th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
 
 /* .App-logo {
   height: 40vmin;
