@@ -21,6 +21,16 @@ table.harga-buah {
   border-bottom: 1px solid #ddd;
 }
 
+table.daftar-nilai{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.daftar-nilai th, td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
