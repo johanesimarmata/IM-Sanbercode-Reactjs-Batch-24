@@ -56,7 +56,7 @@ const HooksWithAxios = () => {
           setInputNilaiStudent(data.score)
           setCurrentStudentId(data.id)
         })
-      }
+    }
 
     const handleDelete = (event) =>{
         let idStudent = parseInt(event.target.value)
