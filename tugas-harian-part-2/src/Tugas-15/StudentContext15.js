@@ -10,7 +10,7 @@ export const StudentProvider = props => {
         triggerStudent,
         setTriggerStudent,
         currentId,
-        setCurrentId
+        setCurrentId,
     }
 
     return (
