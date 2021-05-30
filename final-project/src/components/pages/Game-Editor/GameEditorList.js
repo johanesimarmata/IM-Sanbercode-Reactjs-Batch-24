@@ -154,7 +154,11 @@ const GameEditorList = () => {
                 return el.name.toLowerCase().includes(search)
             });
             setGames(value);
-        }
+        }else(
+            axios.get('https://backendexample.sanbersy.com/api/data-game').then((res) => {
+                setGames(res.data)
+            })
+        )
 
         setSearch("")
     }

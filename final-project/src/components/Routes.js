@@ -22,7 +22,7 @@ const Routes = () => {
 
     const [user] = useContext(UserContext)
 
-    const LoginRoute = ({user, ...props}) => user ? <Redirect to="/"/> : <Route {...props}/>
+    const LoginRoute = ({...props}) => user ? <Redirect to="/"/> : <Route {...props}/>
 
     return(
             <Switch>

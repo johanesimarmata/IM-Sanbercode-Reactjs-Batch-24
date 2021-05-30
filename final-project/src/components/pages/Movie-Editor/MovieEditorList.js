@@ -169,6 +169,10 @@ const MovieEditorList = () => {
                 return el.title.toLowerCase().includes(search)
             });
             setMovies(value);
+        }else{
+            axios.get(`https://backendexample.sanbersy.com/api/data-movie`).then((res) => {
+                setMovies(res.data)
+            });
         }
 
         setSearch("")
